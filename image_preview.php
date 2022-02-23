@@ -1,5 +1,17 @@
 
 <!-- Single Image -->
+<form>
+  <input type="file" onchange="preview()">
+  <img id="frame" src="" width="100px" height="100px"/>
+</form>
+
+<script>
+    function preview() {
+    frame.src=URL.createObjectURL(event.target.files[0]);
+}
+</script>
+
+<!-- Single Image -->
 
 <input type="file" name="product_thambnail" class="form-control" onChange="mainThamUrl(this)" >
   
