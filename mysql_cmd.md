@@ -1,3 +1,3 @@
-== To get creating SQL command for an existing table ==
+<h2>To get creating SQL command for an existing table</h2>
 
-command: SHOW CREATE TABLE table_name
+SHOW CREATE TABLE table_name
