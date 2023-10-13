@@ -34,5 +34,16 @@
     </script>
 
 
+<!-- Controller code -->
+
+   <?php
+   $success = [
+            'type' => 'success',
+            'message'=>'Profile Updated Successfully',
+        ];
+
+        return redirect()->route('profile')->with($success);
+
+
 
 
