@@ -76,3 +76,6 @@ $multi_images = $request->file('multi_images');
 
        
     }
+
+// View Image in blade file
+ asset('storage/uploads/' . $user->profile_photo_path)
